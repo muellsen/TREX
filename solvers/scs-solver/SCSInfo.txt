@@ -1,0 +1,11 @@
+Place the SCS solver files here 
+
+SCS can be downloaded from https://github.com/cvxgrp/scs
+
+After compilation the current folder should contain the following file list:
+
+README.md	      scs_direct.m   	    scs_indirectWrapper.m
+compile_direct.m      scs_direct.mexmaci64  scs_mex.c
+compile_indirect.m    scs_directWrapper.m   scs_version.mexmaci64
+make_scs.m	      			    scs_indirect.m		scs_version_mex.c
+scs.m										scs_indirect.mexmaci64	write_scs_data.m

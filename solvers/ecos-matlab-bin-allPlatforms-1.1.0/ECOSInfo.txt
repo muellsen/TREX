@@ -1,0 +1,16 @@
+Place the ECOS solver files here 
+
+ECOS can be downloaded from https://github.com/embotech/ecos-matlab
+
+After compilation the current folder should contain the following file list:
+
+cvx_solver_shim.m 
+ecos.mexmaci64		
+ecosoptimset.m
+ecos.mexw32		
+ecosqp.m			
+ecos.m
+ecos.mexw64		
+makemex.m 
+ecos.mexa64		
+ecos_license.m
