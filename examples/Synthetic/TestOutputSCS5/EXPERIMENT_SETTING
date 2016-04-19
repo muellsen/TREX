@@ -1,0 +1,23 @@
+EXPERIMENT SETTING FOR SCS 
+
+Parallel SCS has been used! The constant c has been lowered to 0.35
+
+trexSCSopts = 
+
+      cpath: 0.3500
+    verbose: 0
+      maxit: 5000
+     abstol: 1.0000e-03
+
+epsSCS =
+
+    0.0100
+
+trexopts = 
+
+        boots: 0
+          rep: 1
+      verbose: 0
+        beta0: [100x1 double]
+            q: 40
+    normConst: 0.3500

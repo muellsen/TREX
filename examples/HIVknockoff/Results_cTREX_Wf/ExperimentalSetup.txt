@@ -1,0 +1,1 @@
+% We use here c=1/2 for the fTREX knockoff filter and the parallel ecos implementation

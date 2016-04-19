@@ -1,0 +1,1 @@
+% We use an entire trace over phi (we use the letter c in the code) for the phiTREX knockoff filter and the parallel qTREX implementation

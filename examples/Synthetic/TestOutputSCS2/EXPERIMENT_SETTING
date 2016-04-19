@@ -1,0 +1,21 @@
+EXPERIMENT SETTING FOR SCS 
+
+trexSCSopts = 
+
+      cpath: 0.5000
+    verbose: 0
+      maxit: 5000
+     abstol: 1.0000e-04
+
+epsSCS =
+
+    0.0100
+
+trexopts = 
+
+        boots: 0
+          rep: 10
+      verbose: 0
+        beta0: [100x1 double]
+            q: 40
+    normConst: 0.5000
