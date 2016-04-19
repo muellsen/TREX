@@ -24,7 +24,11 @@ https://github.com/embotech/ecos
 The MATLAB interface can be found at:
 https://github.com/embotech/ecos-matlab
 
-Please place it in the solver/ folder
+## SCS Solver for the cTREX ##
+SCS can be downloaded from https://github.com/cvxgrp/scs
+
+
+Please place the different files  in the solver/ folder
 
 
 ## KNOCKOFF FILTER ##
@@ -34,7 +38,6 @@ by Barber-Foygel and Candes. The software can be downloaded at:
 http://web.stanford.edu/~candes/Knockoffs/package_matlab.html
 
 Please place it in the misc/ folder
-
 
 
 FAQ
