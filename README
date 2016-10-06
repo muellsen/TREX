@@ -2,6 +2,7 @@ README file for TREX code
 Authors: Christian L. Mueller, Simons Foundation 
          Jacob Bien, Cornell University
 	 Irina Gaynanova, Texas A&M
+	 Patrick Combettes, NC State (for proximal algorithm)
 
 The TREX package contains the following files and folders
 
@@ -12,6 +13,7 @@ misc/ (different files, the barweb plotting and the knockoff filter (after downl
 solvers/ (Schmidt's PSG code, the ECOS solver (after download), and SCS solver)
 trex/ (TREX files (both single and multi-thread versions), TREX knockoff filter)
 
+The proximal solvers are fully integrated and do not rely on external software.
 
 Dependencies
 
