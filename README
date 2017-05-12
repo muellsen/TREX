@@ -7,7 +7,7 @@ Authors: Christian L. Mueller, Simons Foundation
 The TREX package contains the following files and folders
 
 README (this file)
-examples/ (different scenarios)
+examples/ (different scenarios), also includes figure creation for JCGS publication
 install_trex.m (script to add package to MATLAB path)
 misc/ (different files, the barweb plotting and the knockoff filter (after download))
 solvers/ (Schmidt's PSG code, the ECOS solver (after download), and SCS solver)
