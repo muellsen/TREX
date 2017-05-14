@@ -1,5 +1,5 @@
-Scripts to test the performance of Lasso and TREX on various benchmarks (as illustrated in Bien et al, 2017 (see below))
-and generate Figures used in the manuscript
+Scripts to test the performance of Lasso and TREX on various benchmarks)
+and generate Figures used in the manuscript Bien et al, 2017 (see below).
 
 References:
 
