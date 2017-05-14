@@ -8,5 +8,7 @@ Rina Foygel Barber and Emmanuel J. Candès
 Ann. Statist., Volume 43, Number 5 (2015), 2055-2085.
 
 Non-convex Global Minimization and False Discovery Rate Control for the TREX
-by Jacob Bien, Irina Gaynanova, Johannes Lederer, Christian Müller
-https://arxiv.org/abs/1604.06815, To appear in Journal of Computational and Graphical Statistics, 2017
+by Jacob Bien, Irina Gaynanova, Johannes Lederer, Christian L. Müller
+
+https://arxiv.org/abs/1604.06815, 
+To appear in Journal of Computational and Graphical Statistics, 2017
