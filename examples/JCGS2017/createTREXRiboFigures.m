@@ -1,5 +1,6 @@
-% Generate figures related to Riboflavin data analysis with TREX
-
+% Generate Figure 6 (Riboflavin data analysis with TREX) in the manuscipt
+% as well as a number of additional Figures (including Figures in the Appendix)
+% Data needs to be loaded and pre-processed in analyzeTREXRiboData
 
 % Plot thresholded function value histogram
 % Magnified by hand in the viewer for creating inset
