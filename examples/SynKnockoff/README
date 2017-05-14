@@ -1,10 +1,26 @@
-Scripts to generate and test TREX within the knockoff filtering framework
+Scripts to generate and test Lasso and TREX within the knockoff filtering framework
 
-Linear models with both uncorrelated/correlated homescedastic as well as heteroscedastic noise has been used to validated 
+Linear models (n>p setting) with both uncorrelated/correlated homescedastic as well as heteroscedastic noise has been used to validated 
 the framework and compared to Lasso-based knockoff filtering
 
-The details are found in 
+Short description of the scripts 
+testExampleTraceFDP.m	Simple demo how to use TREX and Lasso with knockoff filtering (similar to examples in Barber and Candes) 
+across multiple target FDRs
+
+testKnockoffSynthetic.m	Advanced demo how to use TREX and Lasso with knockoff filtering (similar to examples in Barber and Candes) 
+with fixed FDR
+
+testTREXSynKnockoffCorr.m	Script to test Lasso/TREX knockoff filtering with correlated noise 
+testTREXSynKnockoffHS.m Script to test Lasso/TREX knockoff filtering with heteroscedastic noise
+
+The results for the latter two tests are found in Figure 7, Bien et al, 2017
+
+References:
+
+Controlling the false discovery rate via knockoffs
+Rina Foygel Barber and Emmanuel J. Candès
+Ann. Statist., Volume 43, Number 5 (2015), 2055-2085.
 
 Non-convex Global Minimization and False Discovery Rate Control for the TREX
 by Jacob Bien, Irina Gaynanova, Johannes Lederer, Christian Müller
-https://arxiv.org/abs/1604.06815 to appear in Journal of Computational and Graphical Statistics
+https://arxiv.org/abs/1604.06815 to appear in Journal of Computational and Graphical Statistics, 2017
