@@ -1,1 +1,10 @@
-Synthetic tests for TREX with knockoff filtering for JCGS paper
+Scripts to generate and test TREX within the knockoff filtering framework
+
+Linear models with both uncorrelated/correlated homescedastic as well as heteroscedastic noise has been used to validated 
+the framework and compared to Lasso-based knockoff filtering
+
+The details are found in 
+
+Non-convex Global Minimization and False Discovery Rate Control for the TREX
+by Jacob Bien, Irina Gaynanova, Johannes Lederer, Christian Müller
+https://arxiv.org/abs/1604.06815 to appear in Journal of Computational and Graphical Statistics
