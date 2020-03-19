@@ -15,7 +15,7 @@ The package handles the solution of the TREX objective.
 
 The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
-Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solutin has been introduced in [1]. Via decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2]. Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3].
+Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [1]. Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2]. Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3].
 
 The package includes all of the above algorithmic strategies in one framework.
 
@@ -25,7 +25,7 @@ The TREX package contains the following files and folders
 - examples/ (different scenarios), also includes figure creation for [2].
 - install_trex.m (script to add package to MATLAB path)
 - misc/ (different files, the barweb plotting and the knockoff filter (after download))
-- solvers/ (Schmidt's PSG code, the ECOS solver (after download), and SCS solver)
+- solvers/ (Schmidt's PSG code, the ecos solver (after additional download), and SCS solver)
 - trex/ (TREX files (both single and multi-thread versions), TREX knockoff filter)
 
 The proximal solvers are fully integrated and do not rely on external software.
