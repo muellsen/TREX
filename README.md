@@ -10,7 +10,12 @@ It that enables sparse tuning-free linear regression. The forward model is assum
 Here, y and X are given continuous outcome and predictor data. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
 The package handles the solution of the TREX objective. 
+#### TREX regression:             
 
+<img src="https://latex.codecogs.com/gif.latex?\arg\min_{\beta\in&space;R^d}&space;||&space;X\beta-y&space;||^2&space;&plus;&space;\lambda&space;||\beta||_1&space;" />
+
+This is the standard Lasso problem with linear equality constraints on the &beta; vector. 
+The objective function combines Least-Squares for model fitting with l1 penalty for sparsity. 
 Several different algorithmic strategies, including proximal gradient descent for an approximate solutin (see [1])
 and exact solvers for the decomposed problem, introduced in [2]. Here, the TREX is either reformulated as a collection
 of Second-order Cone Programs (SOCPs) [2] or, alternatively, reformulated in a higher-dimensional product space, amenable to the Douglas-Rachford proximal splitting algorithms [3].
