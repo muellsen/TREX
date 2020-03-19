@@ -18,21 +18,16 @@ The proximal solvers are fully integrated and do not rely on external software.
 
 ## Dependencies
 
-### ECOS Solver for the cTREX
-The fastest way to solve the cTREX objective is by using the ECOS solver:
+### External solvers
+Two solvers have been tested to solve the TREX problem in SOCP form.
 
-The software can be downloaded at:
-https://github.com/embotech/ecos
+- ecos: Conic solver for the cTREX
+The software can be downloaded [here](https://github.com/embotech/ecos). The MATLAB interface can be found [here](https://github.com/embotech/ecos-matlab).
 
-The MATLAB interface can be found at:
-https://github.com/embotech/ecos-matlab
+- SCS: SOCP solver for the cTREX 
+SCS can be downloaded [here](https://github.com/cvxgrp/scs). Place the different files in the solver/ folder.
 
-### SCS Solver for the cTREX 
-SCS can be downloaded from https://github.com/cvxgrp/scs
-
-Please place the different files  in the solver/ folder
-
-### KNOCKOFF FILTER
+### Knockoff filter
 Knockoff filtering with the TREX requires the MATLAB knockoff filter package 
 by Barber-Foygel and Candes. The software can be downloaded at:
 
@@ -47,7 +42,6 @@ USEFUL FOR SCS CODE COMPILATION
 
 Workaround for compiling code using mex for Mac OS X with MATLAB 2015a and Xcode 7+
 http://www.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-supported-compiler-in-matlab-r2015b-after-i-upgraded-to-xcode-7-0
-
 
 
 ## References 
