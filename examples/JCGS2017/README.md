@@ -1,8 +1,6 @@
-Scripts to test the performance of Lasso and TREX on different benchmarks
+# Scripts to test the performance of the Lasso and TREX on different synthetic benchmarks
 
-Most of the Figures used in Bien et al, 2018 (see [2]) are reproduced here.
-
-Additional tests and scripts are found in /HIVknockoff and /Riboflavin.
+Most of the Figures used in Bien et al, 2018 (see [2]) are reproduced here. Additional tests and scripts are found in /HIVknockoff and /Riboflavin.
 
 References:
 
