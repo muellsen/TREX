@@ -54,7 +54,7 @@ http://www.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-suppo
 
 The code builds on results from the following papers:
 
-* [1] J. Lederer, C.L. Müller, [Don't fall for tuning parameters: tuning-free variable selection in high dimensions with the TREX](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPaper/9359), Twenty-Ninth AAAI Conference on Artificial Intelligence, 2015
+* [1] J Lederer, CL Müller, [Don't fall for tuning parameters: tuning-free variable selection in high dimensions with the TREX](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPaper/9359), Twenty-Ninth AAAI Conference on Artificial Intelligence, 2015
 * [2] J Bien, I Gaynanova, J Lederer, CL Müller, [Non-convex global minimization and false discovery rate control for the TREX](https://amstat.tandfonline.com/doi/abs/10.1080/10618600.2017.1341414#.XnPaQi2ZNgc), Journal of Computational and Graphical Statistics 27 (1), 23-33, 2018
 * [3] PL Combettes, CL Müller, Perspective functions: [Proximal calculus and applications in high-dimensional statistics](https://www.sciencedirect.com/science/article/pii/S0022247X16308071), Journal of Mathematical Analysis and Applications 457 (2), 1283-1306, 2018
 * [4] J Bien, I Gaynanova, J Lederer, CL Müller, [Prediction error bounds for linear regression with the TREX](https://link.springer.com/article/10.1007/s11749-018-0584-4), Test 28 (2), 451-474, 2019
