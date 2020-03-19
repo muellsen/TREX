@@ -11,12 +11,13 @@ Here, y and X are given continuous outcome and predictor data. The vector &beta;
 
 The package handles the solution of the TREX objective. 
 
-<img src="https://latex.codecogs.com/gif.latex?\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{1/2\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." />
+<img src="https://latex.codecogs.com/gif.latex?\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." />
 
-The objective requires no tuning parameter (as compared to the Lasso) but is non-convex.  
-Several different algorithmic strategies, including proximal gradient descent for an approximate solutin (see [1])
-and exact solvers for the decomposed problem, introduced in [2]. Here, the TREX is either reformulated as a collection
-of Second-order Cone Programs (SOCPs) [2] or, alternatively, reformulated in a higher-dimensional product space, amenable to the Douglas-Rachford proximal splitting algorithms [3].
+The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
+
+Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solutin has been introduced in [1]. Via decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2]. Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3].
+
+The package includes all of the above algorithmic strategies in one framework.
 
 ## Package structure 
 The TREX package contains the following files and folders
@@ -48,11 +49,12 @@ http://web.stanford.edu/~candes/Knockoffs/package_matlab.html
 
 Please place it in the misc/ folder
 
-
-
 ## Basic example
-...
+To include the package in your MATLAB environment, type first
 
+```MATLAB
+install_trex
+````
 
 ## FAQ
 
