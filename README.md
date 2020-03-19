@@ -1,9 +1,9 @@
 Tuning-free sparse linear regression with the TREX
 =========
 
-This is the TREX MATLAB package for sparse tuning-free linear regression.
+This is the TREX MATLAB package allows sparse tuning-free linear regression.
 
-It that enables sparse tuning-free linear regression. The forward model is assumed to be the standard linear model: 
+The forward model is assumed to be the standard linear model: 
 
 <img src="https://latex.codecogs.com/gif.latex?y&space;=X\beta&space;+\sigma&space;\epsilon&space;" /> 
 
