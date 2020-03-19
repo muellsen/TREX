@@ -43,9 +43,9 @@ SCS can be downloaded [here](https://github.com/cvxgrp/scs). Place the different
 
 ### Knockoff filter
 Knockoff filtering with the TREX requires the MATLAB knockoff filter package 
-by Barber-Foygel and Candes. The software can be downloaded at:
+by Barber-Foygel and Candes. The software can be downloaded [here](https://github.com/msesia/knockoff-filter).
 
-http://web.stanford.edu/~candes/Knockoffs/package_matlab.html
+The deprecated link during initial development was [here](http://web.stanford.edu/~candes/Knockoffs/package_matlab.html)
 
 Please place it in the misc/ folder
 
