@@ -7,7 +7,7 @@ The forward model is assumed to be the standard linear model:
 
 <img src="https://latex.codecogs.com/gif.latex?y&space;=X\beta&space;+\sigma&space;\epsilon&space;" /> 
 
-Here, y and X are given continuous outcome and predictor data. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
+Here, X is a known design matrix and y is a known continuous response vector. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
 The package handles the solution of the TREX objective. 
 
