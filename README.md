@@ -56,14 +56,6 @@ To include the package in your MATLAB environment, type first
 install_trex
 ````
 
-## FAQ
-
-USEFUL FOR SCS CODE COMPILATION
-
-Workaround for compiling code using mex for Mac OS X with MATLAB 2015a and Xcode 7+
-http://www.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-supported-compiler-in-matlab-r2015b-after-i-upgraded-to-xcode-7-0
-
-
 ## References 
 
 The code builds on results from the following papers:
@@ -75,4 +67,9 @@ The code builds on results from the following papers:
 
 Maintainer:
 * Christian L. Müller, Center for Computational Mathematics, Flatiron Institute, Simons Foundation (cmueller@flatironinstitute.org)
+
+## Known issues
+
+Workaround for compiling SCS code using mex for Mac OS X with MATLAB 2015a and Xcode 7+
+http://www.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-supported-compiler-in-matlab-r2015b-after-i-upgraded-to-xcode-7-0
 
