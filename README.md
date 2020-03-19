@@ -8,7 +8,7 @@ This is the TREX MATLAB package for sparse tuning-free linear regression.
 ## Package structure 
 The TREX package contains the following files and folders
 
-- examples/ (different scenarios), also includes figure creation for JCGS publication
+- examples/ (different scenarios), also includes figure creation for [2].
 - install_trex.m (script to add package to MATLAB path)
 - misc/ (different files, the barweb plotting and the knockoff filter (after download))
 - solvers/ (Schmidt's PSG code, the ECOS solver (after download), and SCS solver)
