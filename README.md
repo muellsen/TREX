@@ -3,7 +3,17 @@ Tuning-free sparse linear regression with the TREX
 
 This is the TREX MATLAB package for sparse tuning-free linear regression.
 
+It that enables sparse tuning-free linear regression. The forward model is assumed to be the standard linear model: 
 
+<img src="https://latex.codecogs.com/gif.latex?y&space;=X\beta&space;+\sigma&space;\epsilon&space;" /> 
+
+Here, y and X are given continuous outcome and predictor data. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
+
+The package handles the solution of the TREX objective. 
+
+Several different algorithmic strategies, including proximal gradient descent for an approximate solutin (see [1])
+and exact solvers for the decomposed problem, introduced in [2]. Here, the TREX is either reformulated as a collection
+of Second-order Cone Programs (SOCPs) [2] or, alternatively, reformulated in a higher-dimensional product space, amenable to the Douglas-Rachford proximal splitting algorithms [3].
 
 ## Package structure 
 The TREX package contains the following files and folders
@@ -34,6 +44,11 @@ by Barber-Foygel and Candes. The software can be downloaded at:
 http://web.stanford.edu/~candes/Knockoffs/package_matlab.html
 
 Please place it in the misc/ folder
+
+
+
+## Basic example
+...
 
 
 ## FAQ
