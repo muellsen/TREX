@@ -3,7 +3,10 @@
 Tuning-free sparse linear regression with the TREX 
 =========
 
-This is the TREX MATLAB package allows sparse tuning-free linear regression.
+This is a resource page for the TREX which allows sparse tuning-free linear regression. Currently, the TREX is available 
+as MATLAB package.
+
+## Background
 
 The forward model is assumed to be the standard linear model: 
 
@@ -17,7 +20,7 @@ The package handles the solution of the TREX objective.
 
 The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
-Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references). Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2](#references). Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3](#references).
+Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references). Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [[2]](#references). Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [[3]](#references).
 
 The package includes all of the above algorithmic strategies in one framework.
 
@@ -25,12 +28,9 @@ The package includes all of the above algorithmic strategies in one framework.
 The TREX package contains the following files and folders
 
 - examples/ (different scenarios), also includes figure creation for [2].
-- install_trex.m (script to add package to MATLAB path)
-- misc/ (different files, the barweb plotting and the knockoff filter (after download))
 - solvers/ (Schmidt's PSG code, the ecos solver (after additional download), and SCS solver)
-- trex/ (TREX files (both single and multi-thread versions), TREX knockoff filter)
-
-The proximal solvers are fully integrated and do not rely on external software.
+- trex/ (TREX solvers (both single and multi-thread versions), TREX knockoff filter)
+- misc/ (additional files including barweb plotting and the knockoff filter (after download))
 
 ## Dependencies
 
@@ -50,6 +50,9 @@ by Barber-Foygel and Candes. The software can be downloaded [here](https://githu
 The deprecated link during initial development was [here](http://web.stanford.edu/~candes/Knockoffs/package_matlab.html)
 
 Please place it in the misc/ folder
+
+### Other solvers
+The proximal solvers from [[1]](#references) and [[3]](#references) are fully integrated and do not rely on external software.
 
 ## Basic example
 To include the package in your MATLAB environment, type first
