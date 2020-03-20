@@ -15,10 +15,9 @@ The forward model is assumed to be the standard linear model:
 
 Here, X is a known design matrix and y is a known continuous response vector. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
-The package handles the solution of the TREX objective. 
-<img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/> 
+The package handles the solution of the TREX objective.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." title="\hat \beta_\text{TREX} = \arg \min_{\beta\in\mathbb R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}+\|\beta\|_1\right\}." /></a>
+<img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/> 
 
 The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
