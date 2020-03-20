@@ -16,7 +16,7 @@ Here, X is a known design matrix and y is a known continuous response vector. Th
 
 The package handles the solution of the TREX objective. 
 
-<img src="https://latex.codecogs.com/gif.latex?\hat{\beta_\text{TREX}} = \arg\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/>
+<img src="https://latex.codecogs.com/gif.latex?\hat{\beta_\text{TREX}} = \min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/>
 
 The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
