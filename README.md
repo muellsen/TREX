@@ -15,7 +15,7 @@ The forward model is assumed to be the standard linear model:
 
 Here, X is a known design matrix and y is a known continuous response vector. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
-The TREX estimator is based on solving the following objective function:
+The TREX estimator [[1]](#references) is based on solving the following objective function:
 
 <img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/> 
 
