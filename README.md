@@ -1,7 +1,6 @@
-Tuning-free sparse linear regression with the TREX 
-=========
+Tuning-free sparse linear regression with the TREX <img src="https://i.imgur.com/Ei8KgYG.png" alt="TREX" height="10%" align="right"/> 
 
-<img src="https://i.imgur.com/Ei8KgYG.png" alt="TREX" height="40%" align="right"/> 
+=========
 
 This is the TREX MATLAB package allows sparse tuning-free linear regression.
 
