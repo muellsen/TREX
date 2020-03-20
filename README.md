@@ -39,10 +39,10 @@ The TREX package contains the following files and folders
 ### External solvers
 Two solvers have been tested to solve the TREX problem in SOCP form.
 
-- ecos: Conic solver for the cTREX
+- ecos: Conic solver for the c-TREX.
 The software can be downloaded [here](https://github.com/embotech/ecos). The MATLAB interface can be found [here](https://github.com/embotech/ecos-matlab).
 
-- SCS: SOCP solver for the cTREX 
+- SCS: SOCP solver for the c-TREX. 
 SCS can be downloaded [here](https://github.com/cvxgrp/scs). 
 
 The solver packages should be compiled and placed in the solver/ folder.
