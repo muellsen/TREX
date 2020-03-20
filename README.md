@@ -29,8 +29,8 @@ TREX prediction error are available in [[4]](#references).
 ## Package structure 
 The TREX package contains the following files and folders
 
-- examples/ (different scenarios), also includes figure creation for [2].
-- solvers/ (Schmidt's PSG code, the ecos solver (after additional download), and SCS solver)
+- examples/ (different scenarios), also includes figure creation for [[2]](#references).
+- solvers/ (Schmidt's PSG code, place the ecos/SCS solver here (after download))
 - trex/ (TREX solvers (both single and multi-thread versions), TREX knockoff filter)
 - misc/ (additional files including barweb plotting and the knockoff filter (after download))
 
