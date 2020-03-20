@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/Ei8KgYG.png" alt="TREX" height="20%" align="right"/>
+<img src="https://i.imgur.com/Ei8KgYG.png" alt="TREX" height="2%" align="right"/>
 
 Tuning-free sparse linear regression with the TREX 
 =========
