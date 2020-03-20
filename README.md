@@ -17,7 +17,7 @@ The package handles the solution of the TREX objective.
 
 The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
-Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [1]. Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2]. Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3].
+Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [1](#references). Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [2](#references). Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [3](#references).
 
 The package includes all of the above algorithmic strategies in one framework.
 
