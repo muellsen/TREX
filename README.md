@@ -41,7 +41,9 @@ Two solvers have been tested to solve the TREX problem in SOCP form.
 The software can be downloaded [here](https://github.com/embotech/ecos). The MATLAB interface can be found [here](https://github.com/embotech/ecos-matlab).
 
 - SCS: SOCP solver for the cTREX 
-SCS can be downloaded [here](https://github.com/cvxgrp/scs). Place the different files in the solver/ folder.
+SCS can be downloaded [here](https://github.com/cvxgrp/scs). 
+
+The solver packages should be compiled and placed in the solver/ folder.
 
 ### Knockoff filter
 Knockoff filtering with the TREX requires the MATLAB knockoff filter package 
