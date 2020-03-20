@@ -7,7 +7,7 @@ This is the TREX MATLAB package allows sparse tuning-free linear regression.
 
 The forward model is assumed to be the standard linear model: 
 
-<img src="https://latex.codecogs.com/gif.latex?y&space;=X\beta&space;+\sigma&space;\epsilon&space;" /> 
+<img src="https://latex.codecogs.com/gif.latex?y&space;=X\beta&space;+\sigma&space;\epsilon&space;" align="middle"/> 
 
 Here, X is a known design matrix and y is a known continuous response vector. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
