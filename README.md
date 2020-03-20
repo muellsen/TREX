@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/Ei8KgYG.png" alt="TREX" height="150" align="right"/>
 
-Tuning-free sparse linear regression with the TREX 
+Tuning-free sparse variable selection with the TREX 
 =========
 
-This is a resource page for the TREX which allows sparse tuning-free linear regression. Currently, the TREX is available 
-as MATLAB package.
+This is a resource page for the TREX which allows sparse tuning-free variable selection in linear regression. 
+Currently, the TREX is available as MATLAB package. An R package is under development.
 
 ## Background
 
@@ -15,11 +15,11 @@ The forward model is assumed to be the standard linear model:
 
 Here, X is a known design matrix and y is a known continuous response vector. The vector &beta; comprises the unknown coefficients and &sigma; an unknown scale.
 
-The package handles the solution of the TREX objective.
+The TREX estimator is based on solving the following objective function:
 
 <img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/> 
 
-The constant c is typically set to c=1/2, thus requiring no tuning parameter (as compared to the Lasso). However, the objective is non-convex and comprises 2p minima.  
+The constant c is by default set to c=0.5, thus requiring no tuning parameter (as compared to, e.g, the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
 Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references). Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [[2]](#references). Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [[3]](#references).
 
