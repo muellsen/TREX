@@ -23,7 +23,8 @@ The constant c is by default set to c=0.5, thus requiring no tuning parameter (a
 
 Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references). Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [[2]](#references). Alternatively, the convex subproblems can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [[3]](#references).
 
-The package includes all of the above algorithmic strategies in one framework.
+The package includes all of the above algorithmic strategies in one framework. Theoretical bounds for the 
+TREX prediction error are available in [[4]](#references).
 
 ## Package structure 
 The TREX package contains the following files and folders
