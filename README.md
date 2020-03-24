@@ -23,7 +23,7 @@ The constant c is by default set to c=0.5, thus requiring no tuning (as compared
 
 Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references), referred to as q-TREX. Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p convex Second-Order Cone Programs (SOCPs) [[2]](#references), referred to as c-TREX. Alternatively, the convex subproblems in the c-TREX can also be solved with Douglas-Rachford proximal splitting [[3]](#references). The latter algorithm also allows solving sub-problems of the generalized TREX [[3]](#references): 
 
-<img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{gTREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_q^2}{c\|X^\top(Y-X\beta)\|^{q-1}_\infty}&plus;\|\beta\|_1\right\}." align="middle"/>
+<img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{gTREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^q}{c\|X^\top(Y-X\beta)\|^{q-1}_\infty}&plus;\|\beta\|_1\right\}." align="middle"/>
 
 The package includes all of the above algorithmic strategies in one framework. Theoretical bounds for the 
 TREX prediction error are available in [[4]](#references).
