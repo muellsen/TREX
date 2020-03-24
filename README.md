@@ -19,7 +19,7 @@ The TREX estimator [[1]](#references) is based on solving the following objectiv
 
 <img src="https://latex.codecogs.com/gif.latex?\hat&space;\beta_\text{TREX}&space;=&space;\arg&space;\min_{\beta\in\mathbb&space;R^p}\left\{\frac{\|Y-X\beta\|_2^2}{c\|X^\top(Y-X\beta)\|_\infty}&plus;\|\beta\|_1\right\}." align="middle"/> 
 
-The constant c is by default set to c=0.5, thus requiring no tuning parameter (as compared to, e.g, the Lasso). However, the objective is non-convex and comprises 2p minima.  
+The constant c is by default set to c=0.5, thus requiring no tuning (as compared to, e.g, the Lasso). However, the objective is non-convex and comprises 2p minima.  
 
 Several different algorithmic strategies are available to solve the objective. A proximal gradient descent for an approximate solution has been introduced in [[1]](#references), referred to as q-TREX. Via appropriate reformulation and decomposition, the TREX can be solved exactly by solving 2p Second-order Cone Programs (SOCPs) [[2]](#references), referred to as c-TREX. Alternatively, the convex subproblems in the c-TREX can be reformulated to be amenable to the Douglas-Rachford proximal splitting algorithm [[3]](#references).
 
