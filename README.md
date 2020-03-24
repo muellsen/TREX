@@ -3,8 +3,8 @@
 Tuning-free sparse variable selection with the TREX 
 =========
 
-This is a resource page for the TREX which allows sparse tuning-free variable selection in linear regression. 
-Currently, the TREX is available as MATLAB package. An R package is under development.
+This is a resource page for the TREX which allows sparse tuning-free variable selection for linear regression. 
+The TREX is currently available as MATLAB package. R/Python packages are under development.
 
 ## Background
 
